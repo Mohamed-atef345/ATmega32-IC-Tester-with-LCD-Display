@@ -1,6 +1,6 @@
 # ATmega32 IC Tester
 This project implements an IC tester using the ATmega32 microcontroller, designed to test integrated circuits (ICs) like the SN74S138N, SN74260, and SN74S133. The program uses the internal 1 MHz clock of the ATmega32 and displays the test results on a 16x2 LCD. The code can easily be modified to test other ICs by adjusting the input/output logic.
-
+![IC_74_138](IC_74138.png)
 # Features
 Tests SN74S138N, SN74260, and SN74S133 ICs.
 Can be easily modified to support testing other ICs with necessary input/output logic adjustments.
