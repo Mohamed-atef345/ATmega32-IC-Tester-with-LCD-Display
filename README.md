@@ -16,9 +16,11 @@ Proper wiring for the ICs under test.
 Connect the ATmega32 to your ICs (SN74S138N, SN74260, or SN74S133).
 Set up the 16x2 LCD for displaying results.
 Press the button to start the IC test.
+
 <img src="IC_74138.png" alt="IC_74_138" width="300">
 <img src="IC_74260.png" alt="IC_74_260" width="300">
 <img src="IC_74133.png" alt="IC_74_133" width="300">
+
 The LCD will display the detected IC or "NO MATCH" if no IC is detected.
 To test other ICs, modify the input/output logic in the code to match the new IC’s specifications.
 
